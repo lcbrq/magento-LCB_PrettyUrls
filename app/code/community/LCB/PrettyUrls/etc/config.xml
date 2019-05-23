@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <LCB_PrettyUrls>
+            <version>0.1.0</version>
+        </LCB_PrettyUrls>
+    </modules>
+    <global>
+        <helpers>
+            <prettyurls>
+                <class>LCB_PrettyUrls_Helper</class>
+            </prettyurls>
+        </helpers>
+        <models>
+            <prettyurls>
+                <class>LCB_PrettyUrls_Model</class>
+            </prettyurls>
+            <catalog>
+                <rewrite>
+                    <url>LCB_PrettyUrls_Model_Catalog_Url</url>
+                </rewrite>
+            </catalog>
+        </models>
+    </global>
+</config> 

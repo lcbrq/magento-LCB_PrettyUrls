@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <LCB_PrettyUrls>
+      <active>true</active>
+      <codePool>community</codePool>
+      <version>0.1.0</version>
+    </LCB_PrettyUrls>
+  </modules>
+</config>
